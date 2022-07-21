@@ -14,6 +14,7 @@
 		E4B8BB10288739E400CCA2FC /* FIA.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E4B8BB0E288739E400CCA2FC /* FIA.xcdatamodeld */; };
 		E4B8BB12288739E600CCA2FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4B8BB11288739E600CCA2FC /* Assets.xcassets */; };
 		E4B8BB15288739E600CCA2FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4B8BB13288739E600CCA2FC /* LaunchScreen.storyboard */; };
+		E4FCD8C62889FBD900EA34BD /* TimelineController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FCD8C52889FBD900EA34BD /* TimelineController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		E4B8BB11288739E600CCA2FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E4B8BB14288739E600CCA2FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E4B8BB16288739E600CCA2FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4FCD8C52889FBD900EA34BD /* TimelineController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				E4B8BB07288739E400CCA2FC /* SceneDelegate.swift */,
 				E4B8BB09288739E400CCA2FC /* ViewController.swift */,
 				E4B8BB0B288739E400CCA2FC /* Main.storyboard */,
+				E4FCD8C52889FBD900EA34BD /* TimelineController.swift */,
 				E4B8BB11288739E600CCA2FC /* Assets.xcassets */,
 				E4B8BB13288739E600CCA2FC /* LaunchScreen.storyboard */,
 				E4B8BB16288739E600CCA2FC /* Info.plist */,
@@ -145,6 +148,7 @@
 				E4B8BB0A288739E400CCA2FC /* ViewController.swift in Sources */,
 				E4B8BB06288739E400CCA2FC /* AppDelegate.swift in Sources */,
 				E4B8BB08288739E400CCA2FC /* SceneDelegate.swift in Sources */,
+				E4FCD8C62889FBD900EA34BD /* TimelineController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

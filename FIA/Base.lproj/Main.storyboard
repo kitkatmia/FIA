@@ -11,7 +11,7 @@
         <!--Timeline-->
         <scene sceneID="FHZ-eW-0M0">
             <objects>
-                <viewController id="o6p-Yv-Eip" sceneMemberID="viewController">
+                <viewController id="o6p-Yv-Eip" customClass="TimelineController" customModule="FIA" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ATc-Xj-Tjz">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="1300"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -129,6 +129,9 @@
                                                     </userDefinedRuntimeAttribute>
                                                     <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
                                                 </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="clickedMid1800s:" destination="o6p-Yv-Eip" eventType="touchUpInside" id="KDj-Ia-2sU"/>
+                                                </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="12" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Xb-u2-Qnp">
                                                 <rect key="frame" x="8" y="394" width="145" height="207"/>
@@ -149,6 +152,9 @@
                                                     </userDefinedRuntimeAttribute>
                                                     <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
                                                 </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="clicked1910:" destination="o6p-Yv-Eip" eventType="touchUpInside" id="pyt-kd-MXC"/>
+                                                </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bj2-yy-N9v">
                                                 <rect key="frame" x="8" y="750" width="145" height="203"/>
@@ -169,6 +175,9 @@
                                                     </userDefinedRuntimeAttribute>
                                                     <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
                                                 </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="clicked1965:" destination="o6p-Yv-Eip" eventType="touchUpInside" id="SID-xx-zoQ"/>
+                                                </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vRo-HH-COc">
                                                 <rect key="frame" x="8" y="842" width="150" height="187"/>
@@ -189,6 +198,9 @@
                                                     </userDefinedRuntimeAttribute>
                                                     <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
                                                 </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="clicked1976:" destination="o6p-Yv-Eip" eventType="touchUpInside" id="Nfp-RC-CjU"/>
+                                                </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2017: Total abortion providers reaches new low (~1500 providers)" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xqe-qK-0Pl">
                                                 <rect key="frame" x="8" y="1026" width="145" height="91"/>
@@ -215,6 +227,9 @@
                                                     </userDefinedRuntimeAttribute>
                                                     <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
                                                 </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="clicked2017:" destination="o6p-Yv-Eip" eventType="touchUpInside" id="abw-uF-McJ"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X5W-cQ-4Ye">
                                                 <rect key="frame" x="237" y="1062" width="23" height="19"/>
@@ -227,6 +242,9 @@
                                                     </userDefinedRuntimeAttribute>
                                                     <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
                                                 </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="clicked2019:" destination="o6p-Yv-Eip" eventType="touchUpInside" id="WKO-Pv-QsL"/>
+                                                </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="14" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ERW-bN-7xi">
                                                 <rect key="frame" x="264" y="217" width="142" height="244"/>
@@ -247,6 +265,10 @@
                                                     </userDefinedRuntimeAttribute>
                                                     <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
                                                 </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="clicked1860:" destination="o6p-Yv-Eip" eventType="touchUpInside" id="hVU-Dt-6bC"/>
+                                                    <action selector="clickedMid1800s:" destination="o6p-Yv-Eip" eventType="touchUpInside" id="Ubf-tJ-pQj"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tUh-Ma-GNl">
                                                 <rect key="frame" x="237" y="524" width="23" height="19"/>
@@ -259,6 +281,9 @@
                                                     </userDefinedRuntimeAttribute>
                                                     <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
                                                 </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="clicked1930:" destination="o6p-Yv-Eip" eventType="touchUpInside" id="ePL-E4-92g"/>
+                                                </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1940: The death toll from illegal abortions declined to just under 1,700" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PeV-se-y7b">
                                                 <rect key="frame" x="8" y="586" width="150" height="83"/>
@@ -285,6 +310,9 @@
                                                     </userDefinedRuntimeAttribute>
                                                     <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
                                                 </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="clicked1950:" destination="o6p-Yv-Eip" eventType="touchUpInside" id="rD0-1d-umD"/>
+                                                </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bb7-4j-fDh">
                                                 <rect key="frame" x="264" y="810" width="150" height="165"/>
@@ -305,6 +333,9 @@
                                                     </userDefinedRuntimeAttribute>
                                                     <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
                                                 </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="clicked1973:" destination="o6p-Yv-Eip" eventType="touchUpInside" id="HxY-Ad-3u7"/>
+                                                </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1982: Almost 3000 abortions providers nationally" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="puU-bD-JRs">
                                                 <rect key="frame" x="260" y="880" width="146" height="84"/>
@@ -324,6 +355,9 @@
                                                     </userDefinedRuntimeAttribute>
                                                     <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
                                                 </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="clicked1982:" destination="o6p-Yv-Eip" eventType="touchUpInside" id="BEY-RD-DZl"/>
+                                                </connections>
                                             </button>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lyC-YQ-ZeQ">
                                                 <rect key="frame" x="185" y="403" width="44" height="8"/>
@@ -389,6 +423,9 @@
                                                     </userDefinedRuntimeAttribute>
                                                     <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
                                                 </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="clicked1940:" destination="o6p-Yv-Eip" eventType="touchUpInside" id="agk-0G-V56"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yv2-kb-Kun">
                                                 <rect key="frame" x="154" y="1097" width="23" height="19"/>
@@ -401,6 +438,9 @@
                                                     </userDefinedRuntimeAttribute>
                                                     <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
                                                 </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="clicked2022:" destination="o6p-Yv-Eip" eventType="touchUpInside" id="52A-ej-iEB"/>
+                                                </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2022 - Abortion is overturned by the Supreme Court although majority of Americans think Roe vs Wade should be upheld." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="13" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Td9-8F-8dG">
                                                 <rect key="frame" x="8" y="1097" width="145" height="119"/>
@@ -454,6 +494,21 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Timeline" id="ShR-OI-HxB"/>
                     <size key="freeformSize" width="414" height="1300"/>
+                    <connections>
+                        <outlet property="eighthLabel" destination="bb7-4j-fDh" id="ul3-wq-Fgo"/>
+                        <outlet property="eleventhLabel" destination="xqe-qK-0Pl" id="7cJ-L7-2Ja"/>
+                        <outlet property="fifthLabel" destination="PeV-se-y7b" id="92I-Vu-ksg"/>
+                        <outlet property="fourthLabel" destination="57Q-g0-Yx5" id="o2g-AX-rW0"/>
+                        <outlet property="lastLabel" destination="Td9-8F-8dG" id="X6a-l3-cBC"/>
+                        <outlet property="mid1800s" destination="piM-Mb-12I" id="6x6-lJ-KYR"/>
+                        <outlet property="ninthLabel" destination="vRo-HH-COc" id="yyi-b3-k9r"/>
+                        <outlet property="secondLabel" destination="ERW-bN-7xi" id="Q5F-m1-3Nk"/>
+                        <outlet property="seventhLabel" destination="bj2-yy-N9v" id="Bsz-o1-cJi"/>
+                        <outlet property="sixthLabel" destination="eGV-SP-ciJ" id="zM7-ja-ABi"/>
+                        <outlet property="tenthLabel" destination="puU-bD-JRs" id="eWf-eB-Fw8"/>
+                        <outlet property="thirdLabel" destination="7Xb-u2-Qnp" id="0VJ-C5-f5z"/>
+                        <outlet property="twelvthLabel" destination="SMg-aY-7ZV" id="wrZ-rm-PaW"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lrB-Hv-fov" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
