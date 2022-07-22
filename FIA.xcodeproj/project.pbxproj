@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4100D782288B1F23004946D2 /* 2ndViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4100D781288B1F23004946D2 /* 2ndViewController.swift */; };
 		E4B8BB06288739E400CCA2FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B8BB05288739E400CCA2FC /* AppDelegate.swift */; };
 		E4B8BB08288739E400CCA2FC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B8BB07288739E400CCA2FC /* SceneDelegate.swift */; };
 		E4B8BB0A288739E400CCA2FC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B8BB09288739E400CCA2FC /* ViewController.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4100D781288B1F23004946D2 /* 2ndViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2ndViewController.swift; sourceTree = "<group>"; };
 		E4B8BB02288739E400CCA2FC /* FIA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FIA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4B8BB05288739E400CCA2FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E4B8BB07288739E400CCA2FC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -64,6 +66,7 @@
 				E4B8BB07288739E400CCA2FC /* SceneDelegate.swift */,
 				E4B8BB09288739E400CCA2FC /* ViewController.swift */,
 				E4B8BB0B288739E400CCA2FC /* Main.storyboard */,
+				4100D781288B1F23004946D2 /* 2ndViewController.swift */,
 				E4FCD8C52889FBD900EA34BD /* TimelineController.swift */,
 				E4B8BB11288739E600CCA2FC /* Assets.xcassets */,
 				E4B8BB13288739E600CCA2FC /* LaunchScreen.storyboard */,
@@ -147,6 +150,7 @@
 				E4B8BB10288739E400CCA2FC /* FIA.xcdatamodeld in Sources */,
 				E4B8BB0A288739E400CCA2FC /* ViewController.swift in Sources */,
 				E4B8BB06288739E400CCA2FC /* AppDelegate.swift in Sources */,
+				4100D782288B1F23004946D2 /* 2ndViewController.swift in Sources */,
 				E4B8BB08288739E400CCA2FC /* SceneDelegate.swift in Sources */,
 				E4FCD8C62889FBD900EA34BD /* TimelineController.swift in Sources */,
 			);
