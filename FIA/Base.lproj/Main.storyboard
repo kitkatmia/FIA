@@ -284,7 +284,6 @@
                                                 </userDefinedRuntimeAttributes>
                                                 <connections>
                                                     <action selector="clicked1860:" destination="o6p-Yv-Eip" eventType="touchUpInside" id="hVU-Dt-6bC"/>
-                                                    <action selector="clickedMid1800s:" destination="o6p-Yv-Eip" eventType="touchUpInside" id="Ubf-tJ-pQj"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tUh-Ma-GNl">
@@ -522,7 +521,7 @@
                             <constraint firstItem="tdJ-Pi-ToA" firstAttribute="trailing" secondItem="wsP-kA-ZLX" secondAttribute="trailing" id="pgL-O0-VU1"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Timeline" id="ShR-OI-HxB"/>
+                    <tabBarItem key="tabBarItem" title="Timeline" image="timeline" id="ShR-OI-HxB"/>
                     <navigationItem key="navigationItem" id="wpn-6q-c4h"/>
                     <size key="freeformSize" width="414" height="1300"/>
                     <connections>
@@ -533,7 +532,7 @@
                         <outlet property="lastLabel" destination="Td9-8F-8dG" id="X6a-l3-cBC"/>
                         <outlet property="mid1800s" destination="piM-Mb-12I" id="6x6-lJ-KYR"/>
                         <outlet property="ninthLabel" destination="vRo-HH-COc" id="yyi-b3-k9r"/>
-                        <outlet property="secondLabel" destination="ERW-bN-7xi" id="Q5F-m1-3Nk"/>
+                        <outlet property="secondLabel" destination="ERW-bN-7xi" id="HEc-x6-Ym6"/>
                         <outlet property="seventhLabel" destination="bj2-yy-N9v" id="Bsz-o1-cJi"/>
                         <outlet property="sixthLabel" destination="eGV-SP-ciJ" id="zM7-ja-ABi"/>
                         <outlet property="tenthLabel" destination="puU-bD-JRs" id="eWf-eB-Fw8"/>
@@ -554,7 +553,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FKJ-FT-Neb">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="847"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1c7-Kg-YZe">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="1944.5"/>
@@ -808,6 +807,7 @@ Not only are condoms arguably one of the most affordable, accessible forms of bi
                             <constraint firstItem="FKJ-FT-Neb" firstAttribute="top" secondItem="zpD-NU-77e" secondAttribute="top" id="sfB-mK-YwA"/>
                         </constraints>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Conraceptives" image="pills" id="QMo-Xa-K09"/>
                     <navigationItem key="navigationItem" id="wlp-r0-Cfx"/>
                     <size key="freeformSize" width="414" height="917"/>
                 </viewController>
@@ -869,7 +869,7 @@ Not only are condoms arguably one of the most affordable, accessible forms of bi
                         <viewLayoutGuide key="safeArea" id="V8i-q4-c5C"/>
                         <color key="backgroundColor" red="0.29522609239999997" green="0.58412081670000005" blue="0.65705879389999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Quiz" id="wxZ-Ou-URW"/>
+                    <tabBarItem key="tabBarItem" title="Quiz" image="quiz" id="wxZ-Ou-URW"/>
                     <navigationItem key="navigationItem" id="FMX-1W-h2p"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="o2k-vb-NaL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -1154,7 +1154,7 @@ Not only are condoms arguably one of the most affordable, accessible forms of bi
                         <viewLayoutGuide key="safeArea" id="MZP-Da-mfc"/>
                         <color key="backgroundColor" red="0.8796698684929124" green="0.68662470573347067" blue="0.70821306471084944" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Home" id="bXz-yq-G5q"/>
+                    <tabBarItem key="tabBarItem" title="Home" image="home" id="bXz-yq-G5q"/>
                     <navigationItem key="navigationItem" id="qeK-9e-5ro"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uxW-JK-wHo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -1168,13 +1168,16 @@ Not only are condoms arguably one of the most affordable, accessible forms of bi
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="DGd-XB-1q6">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" red="0.88059377670000005" green="0.74503134380000002" blue="0.76990908670000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="tintColor" red="0.88059377670000005" green="0.74503134380000002" blue="0.76990908670000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="barTintColor" red="0.88059377670000005" green="0.74503134383636271" blue="0.76990908668154767" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="selectedImageTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
                         <segue destination="VPI-NY-OXK" kind="relationship" relationship="viewControllers" id="v29-u0-wIk"/>
                         <segue destination="nhw-b7-Lgm" kind="relationship" relationship="viewControllers" id="7Gu-ZS-9G4"/>
                         <segue destination="o6p-Yv-Eip" kind="relationship" relationship="viewControllers" id="8rA-qA-M2N"/>
-                        <segue destination="hJq-go-bdO" kind="presentation" modalPresentationStyle="fullScreen" id="bzS-yZ-Bd4"/>
+                        <segue destination="hJq-go-bdO" kind="relationship" relationship="viewControllers" id="Zya-LL-VCt"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mtS-x8-vxZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -1184,9 +1187,9 @@ Not only are condoms arguably one of the most affordable, accessible forms of bi
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="NCc-l9-l2v"/>
-        <segue reference="iZJ-u1-x7i"/>
-        <segue reference="IqX-Nx-es1"/>
-        <segue reference="RYo-Jb-6ys"/>
+        <segue reference="7Gu-ZS-9G4"/>
+        <segue reference="Zya-LL-VCt"/>
+        <segue reference="8rA-qA-M2N"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" systemColor="systemPinkColor"/>
     <resources>
@@ -1199,8 +1202,12 @@ Not only are condoms arguably one of the most affordable, accessible forms of bi
         <image name="Screen Shot 2022-07-21 at 11.47.21 AM" width="670" height="198"/>
         <image name="Screen Shot 2022-07-21 at 11.48.42 AM" width="390" height="196"/>
         <image name="clock" catalog="system" width="128" height="121"/>
+        <image name="home" width="50" height="50"/>
         <image name="person.fill.questionmark" catalog="system" width="128" height="104"/>
+        <image name="pills" width="50" height="50"/>
         <image name="pills.fill" catalog="system" width="128" height="106"/>
+        <image name="quiz" width="25" height="25"/>
+        <image name="timeline" width="25" height="25"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

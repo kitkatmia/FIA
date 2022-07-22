@@ -62,7 +62,11 @@ class TimelineController: UIViewController {
     
     @IBAction func clicked1860(_ sender: Any) {
         hideAllText()
+        mid1800s.isHidden = true
         secondLabel.isHidden = false
+        print("HIIIII")
+        secondLabel.isHidden = false
+        
     }
     
     @IBAction func clicked1910(_ sender: Any) {
